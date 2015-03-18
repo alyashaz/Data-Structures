@@ -2,8 +2,7 @@
 
 a) Singly Linked List data structure whose elements are integers.
 
-b) First(list) returns the first element in the list (what if the
-list is empty?).
+b) First(list) returns the first element in the list.
 
 c) Rest(list) returns a pointer/reference to the rest of the list
 after the first element
