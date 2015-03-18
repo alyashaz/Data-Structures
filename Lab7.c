@@ -313,7 +313,7 @@ int  main()
                     }
                     display(n);
                     break;
-	      case 4:     if(head==NULL)
+	case 4:     if(head==NULL)
                     {
                       printf("List is Empty\n");
                     }
