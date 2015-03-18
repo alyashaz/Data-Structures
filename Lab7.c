@@ -287,21 +287,21 @@ int  main()
       {
         switch(i)
         {
+       	case 1:     printf("Enter the number to insert to the front: ");
+                    scanf("%d",&num);
+		    if(temp==NULL)
+		    {
+    			add(num);
+    		    }
+    		    else
+    		    {
+		    	c=count();
+               	      	addafter(num, c);
+		    }
+                    break;	
         case 2:     printf("Enter the number to insert to the end: ");
                     scanf("%d",&num);
                     insert(num);
-                    break;
-	      case 1:     printf("Enter the number to insert to the front: ");
-                    scanf("%d",&num);
-		                if(temp==NULL)
-		                {
-    			            add(num);
-    		            }
-   	 	              else
-    		            {
-		                  c=count();
-               	      addafter(num, c);
-		                }
                     break;
         case 3:     if(head==NULL)
                     {
