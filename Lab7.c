@@ -337,12 +337,12 @@ int  main()
                         printf("%d not found in the list\n",num);
                     }
                     break;
-	      case 7:	    printf("Print the number and the element to print after\n");
+	case 7:	    printf("Print the number and the element to print after\n");
 		                scanf("%d%d", &num, &element);
 		                addafter(num, element);
 		                break;
-	      case 8:     printList(head); break;
-	      case 9:	    printf("Enter number to find\n");
+	case 8:     printList(head); break;
+	case 9:	    printf("Enter number to find\n");
 		                scanf("%d", &num);
 		                if((pos=find(num))>=0)
 		                {
@@ -351,7 +351,7 @@ int  main()
 		                else
 		                  printf("not found\n");
 		                break;
-	      case 10:    mergeSort(NULL);
+	case 10:    mergeSort(NULL);
 			              break;
         case 0:     return 0;
         default:    printf("Invalid option\n");
